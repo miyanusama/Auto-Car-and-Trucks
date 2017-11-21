@@ -1,0 +1,65 @@
+body
+{
+	background-image:url(honda%20models/b.jpg);
+}
+.navbar
+{
+      margin-bottom: 0;
+      border-radius: 0;
+}
+    
+.carousel-inner img
+{
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+.fa {
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa:hover
+{
+    color:white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.nav-id
+{
+	background:black;
+}
+form
+{
+    width: 500px;
+}
+.footer
+{
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    width: 100%;   
+}
